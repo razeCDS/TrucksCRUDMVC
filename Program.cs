@@ -1,12 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using TrucksCRUD.Data;
+using TrucksCRUD.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TrucksCRUDContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TrucksCRUDContext") ?? throw new InvalidOperationException("Connection string 'TrucksCRUDContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<TruckService>();
 
 var app = builder.Build();
 
@@ -27,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Trucks}/{action=Index}/{id?}");
 
 app.Run();

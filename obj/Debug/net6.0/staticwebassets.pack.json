@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\Users\\fe652\\Desktop\\ROADMAP\\semana06\\TrucksCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Cyborg.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-Cyborg.css"
+    },
+    {
+      "Id": "C:\\Users\\fe652\\Desktop\\ROADMAP\\semana06\\TrucksCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cy.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-cy.min.css"
+    },
+    {
       "Id": "C:\\Users\\fe652\\Desktop\\ROADMAP\\semana06\\TrucksCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

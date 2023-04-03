@@ -1,4 +1,6 @@
-﻿namespace TrucksCRUD.Models
+﻿using TrucksCRUD.Data;
+
+namespace TrucksCRUD.Models
 {
     public class Truck
     {
